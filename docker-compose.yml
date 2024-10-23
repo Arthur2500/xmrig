@@ -1,0 +1,5 @@
+services:
+  xmrig:
+    build: .
+    container_name: xmrig
+    restart: unless-stopped
